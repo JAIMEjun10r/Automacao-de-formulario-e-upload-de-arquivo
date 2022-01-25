@@ -41,6 +41,7 @@ E preenche os campos
     List Selection Should Be            ${dropdown}             1  
     Click Element                       ${radio_button2}    
     Click Element                       ${checkbox2}  
-Então faz um upload de um arquivo
+E faz um upload de um arquivo
     Choose File                         inputGroupFile02         ${documento_maquina}    
-        
+Então fecha o navegador
+    Close Browser        
